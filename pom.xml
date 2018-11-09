@@ -16,6 +16,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
+		<springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+		<springfox-spring-web.version>2.9.2</springfox-spring-web.version>
 	</properties>
 
 	<dependencies>
@@ -42,6 +45,25 @@
 			<artifactId>commons-beanutils</artifactId>
 			<version>1.9.3</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${springfox-swagger2.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${springfox-swagger-ui.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-spring-web -->
+		<!-- <dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-spring-web</artifactId>
+			<version>${springfox-spring-web.version}</version>
+		</dependency>
+ -->
 	</dependencies>
 
 </project>
